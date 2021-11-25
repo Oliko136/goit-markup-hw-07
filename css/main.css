@@ -204,10 +204,6 @@ img {
   border: 1px solid var(--accent-color);
 }
 
-.form-modal__input:focus + .form-modal__icon {
-  fill: var(--accent-color);
-}
-
 .form-modal__icon {
   position: absolute;
   top: 50%;
@@ -215,6 +211,10 @@ img {
   transform: translateY(-75%);
   fill: var(--primary-text-color);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-modal__input:focus + .form-modal__icon {
+  fill: var(--accent-color);
 }
 
 .form-modal__textarea {
@@ -289,8 +289,7 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-modal__button:hover,
-.form-modal__button:focus {
+.form-modal__button:hover, .form-modal__button:focus {
   background-color: #188ce8;
 }
 
@@ -330,8 +329,7 @@ img {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.filters__btn:hover,
-.filters__btn:focus {
+.filters__btn:hover, .filters__btn:focus {
   color: var(--tertiary-text-color);
   background-color: var(--accent-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -366,8 +364,7 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social__link:hover,
-.social__link:focus {
+.social__link:hover, .social__link:focus {
   background-color: var(--accent-color);
 }
 
@@ -434,8 +431,7 @@ img {
   background-color: var(--accent-color);
 }
 
-.site-nav__link:hover,
-.site-nav__link:focus {
+.site-nav__link:hover, .site-nav__link:focus {
   color: var(--accent-color);
 }
 
@@ -466,8 +462,7 @@ img {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contacts__link:hover,
-.contacts__link:focus {
+.contacts__link:hover, .contacts__link:focus {
   color: var(--accent-color);
 }
 
@@ -513,8 +508,7 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.hero__btn:hover,
-.hero__btn:focus {
+.hero__btn:hover, .hero__btn:focus {
   background-color: #188ce8;
 }
 
@@ -629,8 +623,7 @@ img {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.clients__link:hover,
-.clients__link:focus {
+.clients__link:hover, .clients__link:focus {
   color: var(--accent-color);
   border-color: var(--accent-color);
 }
@@ -651,8 +644,7 @@ img {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.projects__card:hover,
-.projects__card:focus {
+.projects__card:hover, .projects__card:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
@@ -666,10 +658,6 @@ img {
 
 .projects__link {
   color: inherit;
-}
-
-.projects__link:hover .projects__overlay {
-  transform: translateY(0);
 }
 
 .projects__thumb {
@@ -687,6 +675,10 @@ img {
   background-color: rgba(33, 150, 243, 0.9);
   transform: translateY(300px);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.projects__link:hover .projects__overlay {
+  transform: translateY(0);
 }
 
 .projects__overlay-text {
@@ -750,8 +742,7 @@ img {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.address__contact:hover,
-.address__contact:focus {
+.address__contact:hover, .address__contact:focus {
   color: var(--accent-color);
 }
 
@@ -807,8 +798,7 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-form__button:hover,
-.footer-form__button:focus {
+.footer-form__button:hover, .footer-form__button:focus {
   background-color: #188ce8;
 }
 

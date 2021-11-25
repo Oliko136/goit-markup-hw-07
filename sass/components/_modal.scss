@@ -35,10 +35,10 @@
   background-color: var(--primary-bg-color);
 
   cursor: pointer;
-}
 
-.modal__close:hover .modal__close-icon {
-  fill: var(--accent-color);
+  &:hover .modal__close-icon {
+    fill: var(--accent-color);
+  }
 }
 
 .modal__close-icon {
